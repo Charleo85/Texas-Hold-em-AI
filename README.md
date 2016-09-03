@@ -4,6 +4,9 @@ CS Independent Study
 Overview
 =========
 
+Resources
+===================
+
 
 
 Setup
@@ -31,5 +34,3 @@ Contact Us
 
 	- Charlie Wu [jw7jb@virginia.edu](mailto:jw7jb@virginia.edu)
 	- Tong Qiu [tq7bw@virginia.edu](mailto:tq7bw@virginia.edu)
-
-- You are very welcome to join us!!!
