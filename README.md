@@ -7,17 +7,19 @@ This is an independent study on current application of machine learning techniqu
 
 Possible Topic(s)
 =========
-Pre-flop Decisions
+**Topic: Pre-flop Decisions.**
 - No-limit Hold’em
-- Three important stages
-	- When cards are dealed
-		- David Sklansky’s table
-		- Expected Hand Strength (EHS)
-	- When it’s your turn to bet
-		- Limp / Raise / Fold decision
-		- Stake/blind ratio and Jam/Fold strategy
-	- When everyone finishes his/her actions
-		- Possible range of everyone’s hand
+- Limit Hold'em / Cash game
+
+Three important stages
+- When cards are dealed
+	- David Sklansky’s table
+	- Expected Hand Strength (EHS)
+- When it’s your turn to bet
+	- Limp / Raise / Fold decision
+	- Stake/blind ratio and Jam/Fold strategy
+- When everyone finishes his/her actions
+	- Possible range of everyone’s hand
 
 Milestone
 =========
