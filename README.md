@@ -45,8 +45,9 @@ Resources
 - Machine Learning 
 	- Framework
 	- Relavant Reports
-		- [End of Code](http://www.wired.com/2016/05/the-end-of-code/) by Wired
-	- Paper 
+		- *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/) 
+	- Research Paper
+		- *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
 
 - Game Theory
 	- 
