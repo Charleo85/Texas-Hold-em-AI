@@ -2,11 +2,11 @@
 CS Independent Study @UVa
 
 Overview
-=========
+--------
 This is an independent study on current application of machine learning techniques into Texas Hold’em AI.
 
 Possible Topic(s)
-=========
+-----------------
 **Topic: Pre-flop Decisions.**
 - No-limit Hold’em
 - Limit Hold'em / Cash game
@@ -22,7 +22,7 @@ Three important stages to consider:
 	- Possible range of everyone’s hand
 
 Milestone
-=========
+---------
 1. Learn different machine learning techniques and decide the specify aspect our research project will focus on. 
 
 2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
@@ -30,7 +30,7 @@ Milestone
 3. Integrate the project API into current AI bot and finish the research paper
 
 Datasets
-===================
+--------
 - Standardize
 	- pot size
 	- player level
@@ -41,7 +41,7 @@ Datasets
 	- ...
 
 Resources
-===================
+---------
 - Machine Learning 
 	- Framework
 	- Relavant Reports
@@ -63,12 +63,12 @@ Resources
 
 
 Setup
-===================
+-----
 
 
 
 Update Timeline
-===================
+---------------
 
 - Sep. 3rd Project Setup
 	- github init
@@ -76,12 +76,12 @@ Update Timeline
 
 
 Acknowledge
-===================
+-----------
 
 Thanks for advising and supports frpm Prof. David Evans
 
 Contact Us
-===================
+----------
 
 - Current Collaborators
 
