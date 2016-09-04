@@ -1,13 +1,49 @@
 # Texas-Hold-em-AI
-CS Independent Study
+CS Independent Study @UVa
 
 Overview
 =========
+This is an independent study on current application of machine learning techniques into Texas Hold’em AI.
+
+Milestone
+=========
+1. Learn different machine learning techniques and decide the specify aspect our research project will focus on. 
+
+2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
+
+3. Integrate the project API into current AI bot and finish the research paper
+
+Datasets
+===================
+- Standardize
+	- pot size
+	- player level
+- Remove possible error
+	- unreasonable plays
+- Additional information
+	- player waiting time
+	- ...
 
 Resources
 ===================
-- Claudico
-	- [overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
+- Machine Learning 
+	- Framework
+	- Relavant Reports
+		- [End of Code](http://www.wired.com/2016/05/the-end-of-code/) by Wired
+	- Paper 
+
+- Game Theory
+	- 
+	
+- Behavior Theory
+	- 
+	
+- Related Course
+	- [CS6501 Poker](http://www.cs.virginia.edu/evans/poker/)
+	- AI Strategies for Solving Poker Texas Hold'em [Slides](http://www.slideshare.net/GiovanniMurru/ai-strategies-for-solving-poker-texas-holdem)
+
+- Research Paper
+	- [Claudico Overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
 
 
 Setup
@@ -19,14 +55,14 @@ Update Timeline
 ===================
 
 - Sep. 3rd Project Setup
+	- github init
 	
 
 
 Acknowledge
 ===================
 
-Thanks for Prof. David Evans
-
+Thanks for advising and supports frpm Prof. David Evans
 
 Contact Us
 ===================
