@@ -6,7 +6,8 @@ Overview
 
 Resources
 ===================
-
+- Claudico
+	- [overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
 
 
 Setup
