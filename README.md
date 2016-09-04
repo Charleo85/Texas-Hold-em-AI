@@ -11,7 +11,7 @@ Possible Topic(s)
 - No-limit Hold’em
 - Limit Hold'em / Cash game
 
-Three important stages
+Three important stages to consider:
 - When cards are dealed
 	- David Sklansky’s table
 	- Expected Hand Strength (EHS)
