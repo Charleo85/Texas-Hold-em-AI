@@ -5,6 +5,20 @@ Overview
 =========
 This is an independent study on current application of machine learning techniques into Texas Hold’em AI.
 
+Possible Topic(s)
+=========
+Pre-flop Decisions
+- No-limit Hold’em
+- Three important stages
+	- When cards are dealed
+		- David Sklansky’s table
+		- Expected Hand Strength (EHS)
+	- When it’s your turn to bet
+		- Limp / Raise / Fold decision
+		- Stake/blind ratio and Jam/Fold strategy
+	- When everyone finishes his/her actions
+		- Possible range of everyone’s hand
+
 Milestone
 =========
 1. Learn different machine learning techniques and decide the specify aspect our research project will focus on. 
