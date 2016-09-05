@@ -8,10 +8,16 @@ This is an independent study on current application of machine learning techniqu
 Possible Topic(s)
 -----------------
 **Topic: Pre-flop Decisions.**
+
+When we play the poker game as human, the pre-flop situation emotionally and strategically determines how we play the whole round of game. As the beginning stage of the machine prediction, more accurate and simplified calculation at this stage might be helpful to foresee or narrow the result of the entire game.
+
+Rules require different strategy:
+
 - No-limit Hold’em
 - Limit Hold'em / Cash game
 
 Three important stages to consider:
+
 - When cards are dealed
 	- David Sklansky’s table
 	- Expected Hand Strength (EHS)
@@ -21,7 +27,7 @@ Three important stages to consider:
 - When everyone finishes his/her actions
 	- Possible range of everyone’s hand
 
-Milestone
+Milestones
 ---------
 1. Learn different machine learning techniques and decide the specify aspect our research project will focus on. 
 
@@ -31,7 +37,7 @@ Milestone
 
 Datasets
 --------
-- Standardize
+- Standardization
 	- pot size
 	- player level
 - Remove possible error
@@ -50,10 +56,10 @@ Resources
 		- *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
 
 - Game Theory
-	- 
 	
 - Behavior Theory
-	- 
+- Poker Strategy 
+	- the Poker Bank [link](http://www.thepokerbank.com)
 	
 - Related Course
 	- [CS6501 Poker](http://www.cs.virginia.edu/evans/poker/)
@@ -79,7 +85,7 @@ Update Timeline
 Acknowledge
 -----------
 
-Thanks for advising and supports frpm Prof. David Evans
+Thanks Prof. David Evans for the instructions and supports.
 
 Contact Us
 ----------
