@@ -1,4 +1,4 @@
-# Texas Hold'em AI 
+# Texas Hold'em AI 🤖
 CS Independent Study @UVa
 
 Overview
