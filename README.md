@@ -42,7 +42,7 @@ Three important stages to consider:
 
 Milestones
 ----------
-1. Learn different machine learning techniques and decide the specify aspect our research project will focus on. 
+1. Learn different machine learning techniques and decide the specify aspect our research project will focus on.
 
 2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
 
@@ -61,26 +61,20 @@ Datasets
 
 Resources
 ---------
-- Machine Learning 
+- Machine Learning
     - Framework
-
     - Relavant Reports
-            - *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/) 
-
+        - *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/)
     - Research Paper
 	    - *Deep Reinforcement Learning from Self-Play in Imperfect-Information Games* [PDF](http://arxiv.org/pdf/1603.01121v2.pdf)
 	    - *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
-
 - Game Theory
-	
 - Behavior Theory
-- Poker Strategy 
+- Poker Strategy
     - the Poker Bank [link](http://www.thepokerbank.com)
-	
 - Related Course
     - [CS6501 Poker](http://www.cs.virginia.edu/evans/poker/)
     - AI Strategies for Solving Poker Texas Hold'em [Slides](http://www.slideshare.net/GiovanniMurru/ai-strategies-for-solving-poker-texas-holdem)
-
 - Research Paper
     - [Claudico Overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
 
@@ -95,7 +89,7 @@ Update Timeline
 
 - Sep. 3rd Project Setup
     - github init
-	
+
 
 
 Acknowledge
