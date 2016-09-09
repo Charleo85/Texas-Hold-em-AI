@@ -12,11 +12,13 @@ Possible Topic(s)
 When we play the poker game as human, the pre-flop situation emotionally and strategically determines how we play the whole round of game. As the beginning stage of the machine prediction, more accurate and simplified calculation at this stage might be helpful to foresee or narrow the result of the entire game.
 
 Rules require different strategy:
+
 - Leduc Hold’em
 - No-limit Hold’em
 - Limit Hold'em / Cash game
 
 Three important stages to consider:
+
 - When cards are dealed
     - David Sklansky’s table
     - Expected Hand Strength (EHS)
@@ -31,14 +33,22 @@ Three important stages to consider:
 
 **Focusing on first time bet decisions**
 
-- Policy Network
-    - based on probability
-    - from rigorous calculation (EHS)
+- Rational Neural Network
+    - based on probability & nash equilibrium 
+    - data derived from rigorous calculation (EHS)
     - linear regression between hand strengths and bet sizes
-- Value Network
+- Artful Neural Network
     - based on professional strategies
     - from real world data
     - deep learning (???)
+
+- Input 
+	- previous bet size
+	- pocket hand strength
+- Output
+	- opoenent hand strength
+	- bet size
+	- consistent strategies	 in rest of game
 
 Milestones
 ----------
