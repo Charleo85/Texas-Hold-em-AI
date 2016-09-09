@@ -27,9 +27,9 @@ Three important stages to consider:
     - Possible range of everyone’s hand
 
 **September 8th update**
+
 **Focusing on first time bet decisions**
 
-Two neural networks
 - Policy Network
     - based on probability
     - from rigorous calculation (EHS)
@@ -62,8 +62,10 @@ Resources
 ---------
 - Machine Learning 
     - Framework
+
     - Relavant Reports
 	- *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/) 
+
     - Research Paper
 	- *Deep Reinforcement Learning from Self-Play in Imperfect-Information Games* [PDF](http://arxiv.org/pdf/1603.01121v2.pdf)
 	- *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
