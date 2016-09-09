@@ -11,8 +11,9 @@ Possible Topic(s)
 
 When we play the poker game as human, the pre-flop situation emotionally and strategically determines how we play the whole round of game. As the beginning stage of the machine prediction, more accurate and simplified calculation at this stage might be helpful to foresee or narrow the result of the entire game.
 
-Rules require different strategy:
+Rules require strategy of different complexity:
 
+- Kuhn poker
 - Leduc Hold’em
 - No-limit Hold’em
 - Limit Hold'em / Cash game
@@ -47,6 +48,7 @@ Three important stages to consider:
 	- previous opponent bet size
 	- pocket hand strength
 - Output
+	- randomness(could be a normal ditribution)
 	- opoenent hand strength
 	- bet size
 	- consistent strategies	 in rest of game
@@ -76,6 +78,7 @@ Resources
     - Framework
     - Relavant Reports
         - *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/)
+        - *Why Randomness is Important for Deep Learning* [Link](http://blog.evjang.com/2016/07/randomness-deep-learning.html)
     - Research Paper
 	    - *Deep Reinforcement Learning from Self-Play in Imperfect-Information Games* [PDF](http://arxiv.org/pdf/1603.01121v2.pdf)
 	    - *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
