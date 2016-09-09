@@ -3,7 +3,7 @@ CS Independent Study @UVa
 
 Overview
 --------
-This is an independent study on current application of machine learning techniques into Texas Hold’em AI.
+This is an independent study on the application of current machine learning techniques into Texas Hold’em AI.
 
 Possible Topic(s)
 -----------------
@@ -13,6 +13,7 @@ When we play the poker game as human, the pre-flop situation emotionally and str
 
 Rules require different strategy:
 
+- Leduc Hold’em
 - No-limit Hold’em
 - Limit Hold'em / Cash game
 
@@ -53,6 +54,7 @@ Resources
 	- Relavant Reports
 		- *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/) 
 	- Research Paper
+		- *Deep Reinforcement Learning from Self-Play in Imperfect-Information Games* [PDF](http://arxiv.org/pdf/1603.01121v2.pdf)
 		- *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
 
 - Game Theory
