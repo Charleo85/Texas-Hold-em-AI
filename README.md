@@ -34,16 +34,17 @@ Three important stages to consider:
 **Focusing on first time bet decisions**
 
 - Rational Neural Network
-    - based on probability & nash equilibrium 
-    - data derived from rigorous calculation (EHS)
-    - linear regression between hand strengths and bet sizes
+    - logic based on probability & nash equilibrium 
+    - data derived from rigorous calculation ([EHS](https://en.wikipedia.org/wiki/Poker_Effective_Hand_Strength_(EHS)_algorithm))
+    - regression between hand strengths and bet sizes
+  
 - Artful Neural Network
-    - based on professional strategies
+    - logic based on professional strategies
     - from real world data
     - deep learning (???)
 
 - Input 
-	- previous bet size
+	- previous opponent bet size
 	- pocket hand strength
 - Output
 	- opoenent hand strength
