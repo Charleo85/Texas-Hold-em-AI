@@ -73,7 +73,7 @@ vs. distribution of A,A (Fig. 2) ![Fig. 2](image/AA Rational.png "A,A Probabilis
 3. Randomness in betting consistency
     - Use randomness to "explore" around the distribution curve
     - Indeterministic betting strategies without predictable patterns(aggresive/passive, tight/loose clustering)
-    - Example: how randomness "explores" around distribution curve of AA (Fig. 5)![Fig. 5](image/Inconsistent Play.png "2,7 Probabilistic trend")
+    - Example: how randomness "explores" around distribution curve, in the situation for 2,7 in preflop, say 5,7,K in flop. Indeterministic playing pattern exists in changing to another local maxima   (Fig. 5)![Fig. 5](image/Inconsistent Play.png "2,7 Inconsistent Play")
 
 
 
