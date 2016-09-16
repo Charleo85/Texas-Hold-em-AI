@@ -35,23 +35,44 @@ Three important stages to consider:
 **Focusing on first time bet decisions**
 
 - Rational Neural Network
-    - logic based on probability & nash equilibrium 
+    - logic based on probability & nash equilibrium
     - data derived from rigorous calculation ([EHS](https://en.wikipedia.org/wiki/Poker_Effective_Hand_Strength_(EHS)_algorithm))
     - regression between hand strengths and bet sizes
-  
+
 - Artful Neural Network
     - logic based on professional strategies
     - from real world data
     - deep learning (???)
 
-- Input 
+- Input
 	- previous opponent bet size
 	- pocket hand strength
+
 - Output
 	- randomness(could be a normal ditribution)
 	- opoenent hand strength
 	- bet size
 	- consistent strategies	 in rest of game
+
+**September 15th update**
+
+**Randomness in Training**
+
+1. Probabilistic trend prediction
+    - Based on results from rational neural network
+    - For each input, output a probabilistic distribution of bet sizes
+    - Example: distribution of 27 (Fig. 1) vs. distribution of AA (Fig. 2)
+
+2. Empirical data training
+    - Regression on probabilistic trend distribution described above
+    - Use artful neural network to add noise to the curve
+    - Example: distribution of AA before regression (Fig. 2) vs. distribution of AA after regression (Fig. 3)
+
+3. Randomness in betting consistency
+    - Use randomness to "explore" around the distribution curve
+    - Indeterministic betting strategies without predictable patterns
+    - Example: how randomness "explores" around distribution curve of AA (Fig. 4)
+
 
 Milestones
 ----------
