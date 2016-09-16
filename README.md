@@ -61,17 +61,20 @@ Three important stages to consider:
 1. Probabilistic trend prediction
     - Based on results from rational neural network
     - For each input, output a probabilistic distribution of bet sizes
-    - Example: distribution of 27 (Fig. 1) vs. distribution of AA (Fig. 2)
+    - Example: In preflop, probabilistic distribution trend of 2,7 (Fig. 1)![Fig. 1](image/27 Rational.png "2,7 Probabilistic trend")
+vs. distribution of A,A (Fig. 2) ![Fig. 2](image/AA Rational.png "A,A Probabilistic trend")
 
 2. Empirical data training
     - Regression on probabilistic trend distribution described above
-    - Use artful neural network to add noise to the curve
-    - Example: distribution of AA before regression (Fig. 2) vs. distribution of AA after regression (Fig. 3)
+    - Train artful neural network to add noise to the curve
+    - Example: distribution of 2,7 after regression (Fig. 3)![Fig. 3](image/27 Artful.png "2,7 Probabilistic trend")
+ vs. distribution of A,A after regression (Fig. 4) ![Fig. 4](image/AA Artful.png "2,7 Probabilistic trend")
 
 3. Randomness in betting consistency
     - Use randomness to "explore" around the distribution curve
-    - Indeterministic betting strategies without predictable patterns
-    - Example: how randomness "explores" around distribution curve of AA (Fig. 4)
+    - Indeterministic betting strategies without predictable patterns(aggresive/passive, tight/loose clustering)
+    - Example: how randomness "explores" around distribution curve of AA (Fig. 5)![Fig. 5](image/Inconsistent Play.png "2,7 Probabilistic trend")
+
 
 
 Milestones
