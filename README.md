@@ -170,6 +170,7 @@ Resources
 	    - *Deep Reinforcement Learning from Self-Play in Imperfect-Information Games* [PDF](http://arxiv.org/pdf/1603.01121v2.pdf)
 	    - *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
 - Game Theory
+	- *prisoner dilemma game* [Link](http://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/game-theory/index.html)
 - Behavior Theory
 - Poker Strategy
     - the Poker Bank [link](http://www.thepokerbank.com)
