@@ -164,6 +164,8 @@ Resources
     - Relavant Reports
         - *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/)
         - *Why Randomness is Important for Deep Learning* [Link](http://blog.evjang.com/2016/07/randomness-deep-learning.html)
+    - Book
+    	- *Neural Networks and Deep Learning* [Link](http://neuralnetworksanddeeplearning.com)
     - Research Paper
 	    - *Deep Reinforcement Learning from Self-Play in Imperfect-Information Games* [PDF](http://arxiv.org/pdf/1603.01121v2.pdf)
 	    - *Mastering the Game of Go with Deep Neural Networks and Tree Search* [PDF](https://gogameguru.com/i/2016/03/deepmind-mastering-go.pdf)
