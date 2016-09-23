@@ -75,6 +75,67 @@ vs. distribution of A,A (Fig. 2) ![Fig. 2](image/AA Rational.png "A,A Probabilis
     - Indeterministic betting strategies without predictable patterns(aggresive/passive, tight/loose clustering)
     - Example: how randomness "explores" around distribution curve, in the situation for 2,7 in preflop, say 5,7,K in flop. Indeterministic playing pattern exists in changing to another local maxima   (Fig. 5)![Fig. 5](image/Inconsistent Play.png "2,7 Inconsistent Play")
 
+**September 22th update**
+
+**Model on Simplified Game**
+
+1. Rules of simplified game:
+
+	- Only five cards with no suits: T, J, Q, K, A (from lowest to highest).
+	- Two players each pay 1/2 pot as blinds.
+	- First player makes a bet of certain sizes; second player can only call/fold.
+	- If the second player calls, both show cards to determine the winner.
+
+2. Rational analysis:
+
+	- Winning chance: A - 100%, K - 75%, Q - 50%, J - 25%, T - 0%.
+	- Bet size analysis: if first player has K, and he makes a 1/2-pot bet:
+
+		- The second player needs 1/2 pot to call; he has already invested 1/2 pot. 
+		- So if his hand has a winning chance greater than 50%, he should call; otherwise he should fold. 
+		- If his winning chance is exactly 50%, he has equal possibility to call/fold.
+		- If the second player has A (25% chance), he must call. If he has Q, he either calls or folds with 50% chance each. If he has J or T, he should fold.
+		- First player's expected pay-back at 1/2 pot bet: 0.25\*(-1) + 0.125\*1 + 0.625\*0.5 = 0.1875 pot.
+
+	- Pseudocode for bet-size vs. expected pay-back:
+	```
+	cards = [T, J, Q, K, A]
+	chance = { T: 0, J: 0.25, Q: 0.5, K: 0.75, A: 1 }
+	
+	EVALUATE_PAYBACK(betsize, current_card)
+		expect = 0
+		limit = 1 / (2 * betsize + 1)
+		FOR card IN cards \ current_card
+			IF chance[card] > limit
+				IF card > current_card
+					expect += 0.25 * (0.5 + betsize)
+				ELSE
+					expect += 0.25 * (-0.5 - betsize)
+			ELSE IF chance[card] == limit
+				IF card > current_card
+					expect += 0.125 * (0.5 + betsize) + 0.125 * 0.5
+				ELSE
+					expect += 0.125 * (-0.5 - betsize) + 0.125 * 0.5
+			ELSE
+				expect += 0.25 * 0.5
+			END IF
+		END FOR
+		RETURN expect
+	
+	MAIN()
+		FOR card IN cards
+			FOR x = 0 to max_bet
+				expect = EVALUATE_PAYBACK(x, card)
+				PLOT(x, expect)
+			END FOR
+		END FOR
+	```
+
+3. Training by self-play:
+
+	- First player plays randomly; second player plays rationally. 
+	- Gather output (x, actual payback) and regress.
+	- Improve the curve in step 2 with additional randomness.
 
 
 Milestones
@@ -83,7 +144,7 @@ Milestones
 
 2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
 
-3. Integrate the project API into current AI bot and finish the research paper
+3. Integrate the project API into current AI bot and finish the research paper.
 
 Datasets
 --------
