@@ -50,21 +50,21 @@ Three important stages to consider:
         - `hand`: integer, `0` = Q, `1` = K, `2` = A.
     - Output
         - `True` if the bot plays aggressively (bet/call), or `False` if the bot chooses to fold.
-	- Strategies as the first player
-		- Get an A (Must bet)
-		- Get an K (`PROB_K_BET` = 1, see (4) below)
-		- Get an Q (Bluff with probability `PROB_Q_BET`, see (3) below)
-	- Strategies as the second player
-		- Get an A (Must call)
-		- Get an K (Optimal strategy depends on `PROB_Q_BET`)
-		- Get an Q (Must fold)
+	- Strategies as the first player:
+		- Get an A (Must bet).
+		- Get an K (`PROB_K_BET` = 1, see (4) below).
+		- Get an Q (Bluff with probability `PROB_Q_BET`, see (3) below).
+	- Strategies as the second player:
+		- Get an A (Must call).
+		- Get an K (Optimal strategy depends on `PROB_Q_BET`).
+		- Get an Q (Must fold).
 
 3. `PROB_Q_BET`: probability that a first player holding a Q makes a bluff:
 
     - Consider a second player holding a king:
-        - Probability that he is facing an ace = 0.5
-        - Probability that he is facing a bluffing queen = 0.5p
-        - Optimal strategy: to call with probability p/(1+p)
+        - Probability that he is facing an ace = 0.5.
+        - Probability that he is facing a bluffing queen = 0.5p.
+        - Optimal strategy: to call with probability = p/(1+p).
     - Let p = `PROB_Q_BET`. we want to maximize the expression:  
     <img src="http://latex.codecogs.com/gif.latex?f%28p%29=%5Cfrac{-p^2-0.5p-1}{1+p}" />
     
@@ -73,8 +73,8 @@ Three important stages to consider:
 
 4. `PROB_K_BET`: probability that a first player holding a K should bet:
 
-    - Let q = `PROB_K_BET`. we want to maximize the expression: f(q) = 0.5q - 1
-    - Optimal solution for `PROB_K_BET`:  q = 1
+    - Let q = `PROB_K_BET`. we want to maximize the expression: f(q) = 0.5q - 1.
+    - Optimal solution for `PROB_K_BET`:  q = 1.
 
 
 ********
