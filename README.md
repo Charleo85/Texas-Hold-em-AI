@@ -66,7 +66,8 @@ Three important stages to consider:
         - Probability that he is facing a bluffing queen = 0.5p
         - Optimal strategy: to call with probability p/(1+p)
     - Let p = `PROB_Q_BET`: we want to maximize the expression:
-    ![equation](http://latex.codecogs.com/gif.latex?f%28p%29=%5Cfrac{-p^2-0.5p-1}{1+p})
+    
+<center>![equation](http://latex.codecogs.com/gif.latex?f%28p%29=%5Cfrac{-p^2-0.5p-1}{1+p})</center>
 
     - Optimal solution for `PROB_Q_BET`:
 
