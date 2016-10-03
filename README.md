@@ -65,12 +65,12 @@ Three important stages to consider:
         - Probability that he is facing an ace = ![equation](http://latex.codecogs.com/gif.latex?0.5)
         - Probability that he is facing a bluffing queen = ![equation](http://latex.codecogs.com/gif.latex?0.5p)
         - Optimal strategy: to call with probability ![equation](http://latex.codecogs.com/gif.latex?\frac{p}{1+p})
-    - Let p = `PROB_Q_BET`: we want to maximize the expression ![equation](http://latex.codecogs.com/gif.latex?f%28p%29=\frac{-p^2-0.5p-1}{1+p})
-    - Optimal solution for `PROB_Q_BET`: ![equation](http://latex.codecogs.com/gif.latex?p=\frac{\sqrt{6}}{2}-1=0.22474)
+    - Let p = `PROB_Q_BET`: we want to maximize the expression ![equation](http://latex.codecogs.com/gif.latex?f%28p%29=%5Cfrac{-p^2-0.5p-1}{1+p})
+    - Optimal solution for `PROB_Q_BET`: ![equation](http://latex.codecogs.com/gif.latex?p=%5Cfrac{%5Csqrt{6}}{2}-1=0.22474)
 
 4. `PROB_K_BET`: probability that a first player holding a K should bet:
 
-    - Let q = `PROB_K_BET`: we want to maximize the expression ![equation](http://latex.codecogs.com/gif.latex?g%28q%29=\frac{1}{2}q-1)
+    - Let q = `PROB_K_BET`: we want to maximize the expression ![equation](http://latex.codecogs.com/gif.latex?g%28q%29=%5Cfrac{1}{2}q-1)
     - Optimal solution for `PROB_K_BET`: ![equation](http://latex.codecogs.com/gif.latex?q=1)
 
 
