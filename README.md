@@ -137,6 +137,28 @@ vs. distribution of A,A (Fig. 2) ![Fig. 2](image/AA Rational.png "A,A Probabilis
 	- Gather output (x, actual payback) and regress.
 	- Improve the curve in step 2 with additional randomness.
 
+**October 2th update**
+
+**Winning Strategy on Three-cards Game for a Python Bot**
+
+1. Rules of the three-cards game:
+
+	- Only three cards with no suits: Q, K, A (from lowest to highest).
+	- Two players each pay one unit bet as blinds.
+	- The first player can make a bet of another unit or fold to lose the blind; The second player can only call/fold.
+	- If the second player calls, compare card size to determine the winner.
+
+2. Mathemactic analysis:
+
+	- As the first player
+		- Get an A
+		- Get an K
+		- Get an Q 
+	- As the second player
+		- Get an A
+		- Get an K
+		- Get an Q 
+
 
 Milestones
 ----------
