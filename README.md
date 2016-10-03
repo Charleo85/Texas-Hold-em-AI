@@ -68,7 +68,7 @@ Three important stages to consider:
     - Let p = `PROB_Q_BET`: we want to maximize the expression:
 
 <div style="text-align:center" markdown="1">    
-![equation](http://latex.codecogs.com/gif.latex?f%28p%29=%5Cfrac{-p^2-0.5p-1}{1+p})
+<img src="http://latex.codecogs.com/gif.latex?f%28p%29=%5Cfrac{-p^2-0.5p-1}{1+p}" />
 </div>
 
     - Optimal solution for `PROB_Q_BET`:
