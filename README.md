@@ -70,11 +70,19 @@ Three important stages to consider:
     
     - Optimal solution for `PROB_Q_BET`:  
     <img src="http://latex.codecogs.com/gif.latex?p=%5Cfrac{%5Csqrt{6}}{2}-1=0.22474" />
+    
+    - Decision Tree: 
+    
+    ![Fig. 2](image/Q Tree.png "A,A Probabilistic trend")
 
 4. `PROB_K_BET`: probability that a first player holding a K should bet:
 
     - Let q = `PROB_K_BET`. we want to maximize the expression: f(q) = 0.5q - 1.
     - Optimal solution for `PROB_K_BET`:  q = 1.
+    
+    - Decision Tree: 
+    
+    ![Fig. 2](image/K Tree.png "A,A Probabilistic trend")
 
 
 ********
