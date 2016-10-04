@@ -72,15 +72,15 @@ Three important stages to consider:
     <img src="http://latex.codecogs.com/gif.latex?p=%5Cfrac{%5Csqrt{6}}{2}-1=0.22474" />
     
     - Decision Tree:      
-	<img src="image/Q Tree.png" />
+	<img src="/image/Q Tree.png" />
 
 4. `PROB_K_BET`: probability that a first player holding a K should bet:
 
     - Let q = `PROB_K_BET`. we want to maximize the expression: f(q) = 0.5q - 1.
     - Optimal solution for `PROB_K_BET`:  q = 1.
     
-    - Decision Tree:       
-    <img src="image/K Tree.png" />
+    - Decision Tree:     
+    <img src="/image/K Tree.png" />
 
 
 ********
