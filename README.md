@@ -72,7 +72,7 @@ Three important stages to consider:
     <img src="http://latex.codecogs.com/gif.latex?p=%5Cfrac{%5Csqrt{6}}{2}-1=0.22474" />
     
     - Decision Tree:      
-	<img src="Texas-Hold-em-AI/image/Qtree.png" />
+    ![Qtree.png](image/Qtree.png "Decision Tree of first player holding Q")
 
 4. `PROB_K_BET`: probability that a first player holding a K should bet:
 
@@ -80,7 +80,7 @@ Three important stages to consider:
     - Optimal solution for `PROB_K_BET`:  q = 1.
     
     - Decision Tree:     
-    <img src="Texas-Hold-em-AI/image/Ktree.png" />
+    ![Ktree.png](image/Ktree.png "Decision Tree of first player holding K")
 
 
 ********
