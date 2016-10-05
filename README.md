@@ -7,27 +7,6 @@ This is an independent study on the application of current machine learning tech
 
 Update Timeline
 ---------------
-**Topic: Pre-flop Decisions.**
-
-When we play the poker game as human, the pre-flop situation emotionally and strategically determines how we play the whole round of game. As the beginning stage of the machine prediction, more accurate and simplified calculation at this stage might be helpful to foresee or narrow the result of the entire game.
-
-Rules require strategy of different complexity:
-
-- Kuhn poker
-- Leduc Hold’em
-- No-limit Hold’em
-- Limit Hold'em / Cash game
-
-Three important stages to consider:
-
-- When cards are dealed
-    - David Sklansky’s table
-    - Expected Hand Strength (EHS)
-- When it’s your turn to bet
-    - Limp / Raise / Fold decision
-    - Stake/blind ratio and Jam/Fold strategy
-- When everyone finishes his/her actions
-    - Possible range of everyone’s hand
 
 ********
 
@@ -195,6 +174,30 @@ vs. distribution of A,A (Fig. 2) ![Fig. 2](image/AA Rational.png "A,A Probabilis
 	- opoenent hand strength
 	- bet size
 	- consistent strategies	 in rest of game
+
+********
+	
+**Topic: Pre-flop Decisions.**
+
+When we play the poker game as human, the pre-flop situation emotionally and strategically determines how we play the whole round of game. As the beginning stage of the machine prediction, more accurate and simplified calculation at this stage might be helpful to foresee or narrow the result of the entire game.
+
+Rules require strategy of different complexity:
+
+- Kuhn poker
+- Leduc Hold’em
+- No-limit Hold’em
+- Limit Hold'em / Cash game
+
+Three important stages to consider:
+
+- When cards are dealed
+    - David Sklansky’s table
+    - Expected Hand Strength (EHS)
+- When it’s your turn to bet
+    - Limp / Raise / Fold decision
+    - Stake/blind ratio and Jam/Fold strategy
+- When everyone finishes his/her actions
+    - Possible range of everyone’s hand
 
 
 Milestones
