@@ -224,7 +224,8 @@ Resources
 - Machine Learning
     - Framework
     	- TensorFlow [Link](https://www.tensorflow.org)
-		-  Awesome TensorFlow  [Link](https://github.com/jtoy/awesome-tensorflow)
+	
+		-  Awesome TensorFlow [Link](https://github.com/jtoy/awesome-tensorflow)
     - Relavant Reports
         - *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/)
         - *Why Randomness is Important for Deep Learning* [Link](http://blog.evjang.com/2016/07/randomness-deep-learning.html)
