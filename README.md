@@ -10,6 +10,12 @@ Update Timeline
 
 ********
 
+**November 10th update**
+
+**Neural Network for a Python Bot**
+
+********
+
 **October 2nd update**
 
 **Winning Strategy on Three-cards Game for a Python Bot**
@@ -224,8 +230,9 @@ Resources
 - Machine Learning
     - Framework
     	- TensorFlow [Link](https://www.tensorflow.org)
-	
 		-  Awesome TensorFlow [Link](https://github.com/jtoy/awesome-tensorflow)
+		-  TensorFlow Playground [Link](http://playground.tensorflow.org)
+		-  Binary Stochastic Neurons in Tensorflow [Link](https://gist.github.com/spitis/34b44190c702ae9e858dd020d2790a17)
     - Relavant Reports
         - *End of Code* by [Wired](http://www.wired.com/2016/05/the-end-of-code/)
         - *Why Randomness is Important for Deep Learning* [Link](http://blog.evjang.com/2016/07/randomness-deep-learning.html)
@@ -240,6 +247,8 @@ Resources
 - Poker Strategy
     - the Poker Bank [link](http://www.thepokerbank.com)
 - Related Course
+    - [CS221: Artificial Intelligence](http://web.stanford.edu/class/cs221/)
+    - [CS6316 Machine Learning](https://www.cs.virginia.edu/yanjun/teach/2016f/index.html)
     - [CS6501 Poker](http://www.cs.virginia.edu/evans/poker/)
     - AI Strategies for Solving Poker Texas Hold'em [Slides](http://www.slideshare.net/GiovanniMurru/ai-strategies-for-solving-poker-texas-holdem)
 - Research Paper
