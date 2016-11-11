@@ -28,6 +28,20 @@ def queen_earning(num_bets, precision):
         total_earning += game_model_first(0, model_decision, bot_card, prob_q_bet)
     return total_earning
 
+def queen_data(precision):
+    # array = []
+    # x = []
+    y = []
+    for i in range(0, precision+1, 1):
+        # x.append(i)
+        mean = 0;
+        for j in range(6):
+            mean += queen_earning(i, precision)
+        y.append(mean/6)
+    # array.append(x)
+    # array.append(y)
+    return y
+
 # # based on the given precision, tests every number of bets that Q could make
 # def queen_graph(precision):
 #     x = []
