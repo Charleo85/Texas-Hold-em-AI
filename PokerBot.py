@@ -42,4 +42,4 @@ def testDecision(n):  # Tests the bluff decision of Queen n times
             count += 1
     print(str(count) + " out of " + str(n) + " times of bluffing.")
 
-testDecision(1000)  # Test for 1000 times
+# testDecision(1000)  # Test for 1000 times

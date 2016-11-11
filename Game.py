@@ -1,5 +1,5 @@
 import random
-import matplotlib.pyplot as plt
+# import matplotlib.pyplot as plt
 
 from PokerBot import *
 
@@ -28,14 +28,12 @@ def queen_earning(num_bets, precision):
         total_earning += game_model_first(0, model_decision, bot_card, prob_q_bet)
     return total_earning
 
-# based on the given precision, tests every number of bets that Q could make
-def queen_graph(precision):
-    x = []
-    y = []
-    for i in range(0, precision+1, 1):
-        x.append(i)
-        y.append(queen_earning(i, precision))
-    plt.plot(x, y, 'g^')
-    plt.show()
-
-queen_graph(1000)
+# # based on the given precision, tests every number of bets that Q could make
+# def queen_graph(precision):
+#     x = []
+#     y = []
+#     for i in range(0, precision+1, 1):
+#         x.append(i)
+#         y.append(queen_earning(i, precision))
+#     plt.plot(x, y, 'g^')
+#     plt.show()
