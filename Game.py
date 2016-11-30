@@ -35,9 +35,9 @@ def queen_data(precision):
     for i in range(0, precision+1, 1):
         # x.append(i)
         mean = 0;
-        for j in range(6):
+        for j in range(20):
             mean += queen_earning(i, precision)
-        y.append(mean/6)
+        y.append(mean/20)
     # array.append(x)
     # array.append(y)
     return y
