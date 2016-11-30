@@ -5,8 +5,12 @@ Project Timeline
 
 **Alternative Training Method**
 1. Play against the optimal strategy bot.
+
 2. With initial bet probability of 0.5. Update the bet probability with #win/#rounds, and play again.
-3. After numbers of iteration, the probability will converge to a certain value. 
+
+3. After numbers of iteration, the probability will converge to optimal value. 
+![First Player training Results](image/firstplayer.png)
+![Second Player training Results](image/secondplayer.png)
 ********
 **November 10th update**
 

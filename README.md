@@ -9,7 +9,9 @@ Setup
 -----
 - TensorFlow [documentation](https://www.tensorflow.org/versions/master/api_docs/python/index.html) 
   - [Environment](https://www.tensorflow.org/versions/master/get_started/os_setup.html#requirements)
+
 - Jupyter Notebook  [documentation](http://jupyter.readthedocs.io/en/latest/index.html)
+  
   ``` bash
   $ pip3 install --upgrade pip
   $ pip3 install jupyter
