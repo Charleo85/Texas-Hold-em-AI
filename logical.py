@@ -15,8 +15,6 @@ from Game import queen_data
 # # Set model weights
 # W = tf.Variable(tf.zeros([784, 10]))
 # b = tf.Variable(tf.zeros([10]))
-# list = [1,2]
-# arr = tf.constant(list)
 #
 # # Construct model
 # pred = tf.nn.softmax(tf.matmul(x, W) + b) # Softmax
@@ -59,9 +57,9 @@ from Game import queen_data
 
 mean_value = 0
 mean_index = 0
-iteration = 100
+iteration = 1
 for i in range(iteration):
-    datasets = queen_data(1000)
+    datasets = queen_data(10)
     x = tf.constant(datasets)
     x_max_index = tf.argmax(x, 0)
     x_max_value = tf.reduce_max(x, reduction_indices=[0])
