@@ -8,7 +8,7 @@ This is an independent study on the application of current machine learning tech
 Setup
 -----
 - TensorFlow [documentation](https://www.tensorflow.org/versions/master/api_docs/python/index.html) 
-  - [Environment](https://www.tensorflow.org/versions/master/get_started/os_setup.html#requirements)
+  - [Environment Setup](https://www.tensorflow.org/versions/master/get_started/os_setup.html#requirements)
 
 - Jupyter Notebook  [documentation](http://jupyter.readthedocs.io/en/latest/index.html)
   
