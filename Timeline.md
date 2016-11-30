@@ -1,10 +1,36 @@
-Update Timeline
----------------
+Project Timeline
+----------------
 ********
+**November 24th update**
 
+**Alternative Training Method**
+1. Play against the optimal strategy bot.
+2. With initial bet probability of 0.5. Update the bet probability with #win/#rounds, and play again.
+3. After numbers of iteration, the probability will converge to a certain value. 
+********
 **November 10th update**
 
+**Updated Three-cards Game Rule**
+
+  - First Player has the option to check with blind, so the Nash Equilibrium solution gets more simplified.
+
 **Neural Network for a Python Bot**
+
+1. First Player
+    - Input
+      - Card Strength (Q/K/A)
+    - Output
+      - Fold/Check/Bet (-1/0/1)
+2. Second Player
+    - Input
+      - Card Strength (Q/K/A)
+      - Pot Size (1/2)
+    - Output
+      - Fold/Bet (0/1)
+3. Implement Binary Stochastic Neurons in Tensorflow
+
+      - A binary stochastic neuron is a neuron with a noisy output: some proportion p of the time it outputs 1, otherwise 0
+      - Enabling the networks to make binary decisions, hiding the actual probability and leading to undeterministic behavior
 
 ********
 
