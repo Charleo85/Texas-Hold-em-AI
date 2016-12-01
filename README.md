@@ -18,35 +18,17 @@ Setup
   $ jupyter notebook
   ```
 
- 
+[Demo](Demo.ipynb)
+------------------
+
 [Timeline](Timeline.md)
----------
+-----------------------
 
-
-Milestones
-----------
-1. Learn different machine learning techniques and decide the specify aspect our research project will focus on.
-
-2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
-
-3. Integrate the project API into current AI bot and finish the research paper.
-
-Datasets
---------
-- Standardization
-    - pot size
-    - player level
-- Remove possible error
-    - unreasonable plays
-- Additional information
-    - player waiting time
-    - ...
 
 Resources
 ---------
 - Machine Learning
     - Framework
-    	- TensorFlow [Link](https://www.tensorflow.org)
 		-  Awesome TensorFlow [Link](https://github.com/jtoy/awesome-tensorflow)
 		-  TensorFlow Playground [Link](http://playground.tensorflow.org)
 		-  Binary Stochastic Neurons in Tensorflow [Link](https://gist.github.com/spitis/34b44190c702ae9e858dd020d2790a17)
@@ -71,6 +53,24 @@ Resources
 - Research Paper
     - [Claudico Overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
 
+Milestones
+----------
+1. Learn different machine learning techniques and decide the specify aspect our research project will focus on.
+
+2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
+
+3. Integrate the project API into current AI bot and finish the research paper.
+
+Datasets
+--------
+- Standardization
+    - pot size
+    - player level
+- Remove possible error
+    - unreasonable plays
+- Additional information
+    - player waiting time
+    - ...
 
 Acknowledge
 -----------
