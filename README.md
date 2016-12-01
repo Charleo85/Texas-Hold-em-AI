@@ -8,8 +8,24 @@ This is an independent study on the application of current machine learning tech
 Setup
 -----
 - TensorFlow [documentation](https://www.tensorflow.org/versions/master/api_docs/python/index.html) 
-  - [Environment Setup](https://www.tensorflow.org/versions/master/get_started/os_setup.html#requirements)
+  ``` bash
+  # Ubuntu/Linux 64-bit
+  $ sudo apt-get install python-pip python-dev
+  # Ubuntu/Linux 64-bit, CPU only, Python 3.5
+  $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.11.0-cp35-cp35m-linux_x86_64.whl
 
+  # Mac OS X
+  $ sudo easy_install pip3
+  $ sudo easy_install --upgrade six
+  # Mac OS X, CPU only, Python 3.4 or 3.5:
+  $ export TF_BINARY_URL=https://storage.googleapis.com/tensorflow/mac/gpu/tensorflow-0.11.0-py3-none-any.whl
+  
+  
+  $ sudo pip3 install --upgrade $TF_BINARY_URL
+  ```
+  
+  - [Troubleshoot]([https://www.tensorflow.org/versions/master/get_started/os_setup.html#requirements](https://www.tensorflow.org/versions/master/get_started/os_setup.html#common-problems))
+  
 - Jupyter Notebook  [documentation](http://jupyter.readthedocs.io/en/latest/index.html)
   
   ``` bash
