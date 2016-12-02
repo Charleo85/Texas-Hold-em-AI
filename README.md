@@ -66,27 +66,9 @@ Resources
     - [CS6316 Machine Learning](https://www.cs.virginia.edu/yanjun/teach/2016f/index.html)
     - [CS6501 Poker](http://www.cs.virginia.edu/evans/poker/)
     - AI Strategies for Solving Poker Texas Hold'em [Slides](http://www.slideshare.net/GiovanniMurru/ai-strategies-for-solving-poker-texas-holdem)
-- Research Paper
-    - [Claudico Overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
-
-Milestones
-----------
-1. Learn different machine learning techniques and decide the specify aspect our research project will focus on.
-
-2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
-
-3. Integrate the project API into current AI bot and finish the research paper.
-
-Datasets
---------
-- Standardization
-    - pot size
-    - player level
-- Remove possible error
-    - unreasonable plays
-- Additional information
-    - player waiting time
-    - ...
+- Others' work
+    - Claudico [Overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
+    - [Slumbot](http://www.slumbot.com)
 
 Acknowledge
 -----------
