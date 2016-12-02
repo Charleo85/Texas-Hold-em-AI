@@ -10,7 +10,7 @@ def training_player_first(card, k_call):
         return k_call <= OPT_K_CALL
     elif card == 1:
         rd = random.random()
-        return rd >= 0.5
+        return rd > 0.5
     else:
         return True
 
