@@ -14,6 +14,16 @@ Project Timeline
 ********
 **November 10th update**
 
+**Unpredictability in other project**
+  
+  - Action translation mapping is used to hidden the relation between action and hand strength
+  
+  - Claudico by CMU
+    - P1 bets n with probability 1 with a winning hand.
+    - P1 bets n with probability n/1+n with a losing hand (and checks otherwise).
+    - For all x ∈ [0,n], P2 calls a bet of size x with probability 1.
+    - It was shown by [Ankenman and Chen](https://books.google.com/books/about/The_Mathematics_of_Poker.html?id=bgNGPQAACAAJ) that this strategy profile constitutes a Nash equilibrium.
+
 **Updated Three-cards Game Rule**
 
   - First Player has the option to check with blind, so the Nash Equilibrium solution gets more simplified.
@@ -226,3 +236,26 @@ Three important stages to consider:
     - Stake/blind ratio and Jam/Fold strategy
 - When everyone finishes his/her actions
     - Possible range of everyone’s hand
+********
+
+**September 3th update**
+**project init**
+
+Milestones
+----------
+1. Learn different machine learning techniques and decide the specify aspect our research project will focus on.
+
+2. Look for the proper dataset to train the netrual network and compare the results of different training methodology.
+
+3. Integrate the project API into current AI bot and finish the research paper.
+
+Datasets
+--------
+- Standardization
+    - pot size
+    - player level
+- Remove possible error
+    - unreasonable plays
+- Additional information
+    - player waiting time
+    - ...
