@@ -24,7 +24,7 @@ Setup
   $ sudo pip3 install --upgrade $TF_BINARY_URL
   ```
   
-  - [Troubleshoot]([https://www.tensorflow.org/versions/master/get_started/os_setup.html#requirements](https://www.tensorflow.org/versions/master/get_started/os_setup.html#common-problems))
+  - [Troubleshoot](https://www.tensorflow.org/versions/master/get_started/os_setup.html#common-problems)
   
 - Jupyter Notebook  [documentation](http://jupyter.readthedocs.io/en/latest/index.html)
   

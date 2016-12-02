@@ -4,20 +4,32 @@ Project Timeline
 **November 24th update**
 
 **Alternative Training Method**
-1. Play against the optimal strategy bot.
+  - Play Against Bot
 
-2. With initial bet probability of 0.5. Update the bet probability with #win/#rounds, and play again.
+    1. Play against the optimal strategy bot.
 
-3. After numbers of iteration, the probability will converge to optimal value. 
-![First Player training Results](image/firstplayer.png)
-![Second Player training Results](image/secondplayer.png)
+    2. With initial bet probability of 0.5. Update the bet probability with #win/#rounds, and play again.
+
+    3. After numbers of iteration, the probability will converge to optimal value.
+    ![First Player training Results](image/firstplayer.png)
+    ![Second Player training Results](image/secondplayer.png)
+
+  - Play Against Self
+
+     1. Play against the trainning model self.
+
+     2. With initial bet probability of 0.5. Update the bet probability with #win/#rounds, and play again.
+
+     3. After numbers of iteration, the probability will converge to optimal value.
+     ![Self training Results](image/selftraining.png)
+
 ********
 **November 10th update**
 
 **Unpredictability in other project**
-  
+
   - Action translation mapping is used to hidden the relation between action and hand strength
-  
+
   - Claudico by CMU
     - P1 bets n with probability 1 with a winning hand.
     - P1 bets n with probability n/1+n with a losing hand (and checks otherwise).
@@ -84,10 +96,10 @@ Project Timeline
         - Optimal strategy: to call with probability = p/(1+p).
     - Let p = `PROB_Q_BET`. we want to maximize the expression:  
     <img src="http://latex.codecogs.com/gif.latex?f%28p%29=%5Cfrac{-p^2-0.5p-1}{1+p}" />
-    
+
     - Optimal solution for `PROB_Q_BET`:  
     <img src="http://latex.codecogs.com/gif.latex?p=%5Cfrac{%5Csqrt{6}}{2}-1=0.22474" />
-    
+
     - Decision Tree:      
     ![Qtree.png](image/Qtree.png "Decision Tree of first player holding Q")
 
@@ -95,7 +107,7 @@ Project Timeline
 
     - Let q = `PROB_K_BET`. we want to maximize the expression: f(q) = 0.5q - 1.
     - Optimal solution for `PROB_K_BET`:  q = 1.
-    
+
     - Decision Tree:     
     ![Ktree.png](image/Ktree.png "Decision Tree of first player holding K")
 
@@ -214,7 +226,7 @@ vs. distribution of A,A (Fig. 2) ![Fig. 2](image/AA Rational.png "A,A Probabilis
 	- consistent strategies	 in rest of game
 
 ********
-	
+
 **Topic: Pre-flop Decisions.**
 
 When we play the poker game as human, the pre-flop situation emotionally and strategically determines how we play the whole round of game. As the beginning stage of the machine prediction, more accurate and simplified calculation at this stage might be helpful to foresee or narrow the result of the entire game.
@@ -239,7 +251,8 @@ Three important stages to consider:
 ********
 
 **September 3th update**
-**project init**
+
+**Project init**
 
 Milestones
 ----------
