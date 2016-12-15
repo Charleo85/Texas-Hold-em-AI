@@ -1,8 +1,6 @@
 import random
 from matplotlib import pyplot as plt
 
-
-
 def get_precision():
     precision = 0
     while precision == 0:
