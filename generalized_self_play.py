@@ -20,7 +20,7 @@ class player(object):
         if card < 0 or card >= len(self.bets):
             self.error('Incorrect card number')
         rd = random.random()
-        return rd < (self.bets[card] / self.total[card])
+        return rd < (self.bets[card] / self.total[card]) #false to fold; true to call or check
 
     def get_prob(self, card):
         if card < 0 or card >= len(self.bets):
@@ -46,12 +46,12 @@ class first_player(player):
 
         self.probs[card].append( self.get_prob(card) )
         self.total[card] += 1
-        if first_dec and second_dec and res:
+        if first_dec and second_dec and res: #show down and win
             self.bets[card] += 1
-        elif first_dec and not second_dec:
+        elif first_dec and not second_dec: #bluff sucess
             self.bets[card] += 1
-        elif not first_dec and res:
-            self.bets[card] += 1
+        elif not first_dec and res: # fold, but should win
+            self.bets[card] += 0.5
 
 class second_player(player):
     def analyze(self, card, first_dec, second_dec, res):
@@ -59,13 +59,14 @@ class second_player(player):
             super.error('Incorrect card number')
         if len(self.probs[card]) >= precision: return
 
-        if first_dec:
-            self.probs[card].append(self.get_prob(card))
-            self.total[card] += 1
-        if first_dec and second_dec and not res:
+        # if first_dec:
+        self.probs[card].append(self.get_prob(card))
+        self.total[card] += 1
+
+        if first_dec and second_dec and not res: #show down and win
             self.bets[card] += 1
-        # elif not second_dec:
-        #     self.bets[card] += 0.5
+        elif not first_dec and second_dec:
+            self.bets[card] += 0.5
 
 def deal_cards(num_card):
     card1 = card2 = 0
@@ -90,11 +91,14 @@ def main():
         p2.analyze(card2, first_dec, second_dec, res)
 
     # print(p1.probs[2])
-    to_show = int(input('Enter the player to plot: '))
+    # to_show = int(input('Enter the player to plot: '))
     for i in range(num_card):
-        # print(len(p1.get_prob_array(i)))
-        if to_show == 1: plt.plot(p1.get_prob_array(i))
-        else: plt.plot(p2.get_prob_array(i))
+        plt.plot(p1.get_prob_array(i), label='card '+str(i))
     plt.show()
+    plt.close()
+    for i in range(num_card):
+        plt.plot(p2.get_prob_array(i), label='card '+str(i))
+    plt.show()
+    plt.close()
 
 if __name__ == '__main__': main()
