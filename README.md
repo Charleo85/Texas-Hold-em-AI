@@ -69,6 +69,7 @@ Resources
 - Others' work
     - Claudico [Overview](http://reports-archive.adm.cs.cmu.edu/anon/anon/home/ftp/2015/CMU-CS-15-104.pdf)
     - [Slumbot](http://www.slumbot.com)
+    - [DeepStack](https://arxiv.org/abs/1701.01724)
 
 Acknowledge
 -----------
