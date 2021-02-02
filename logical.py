@@ -54,21 +54,3 @@ from Game import queen_data
 #     # Calculate accuracy for 3000 examples
 #     accuracy = tf.reduce_mean(tf.cast(correct_prediction, tf.float32))
 #     print("Accuracy:", accuracy.eval({x: mnist.test.images[:3000], y: mnist.test.labels[:3000]}))
-
-mean_value = 0
-mean_index = 0
-iteration = 1
-for i in range(iteration):
-    datasets = queen_data(10)
-    x = tf.constant(datasets)
-    x_max_index = tf.argmax(x, 0)
-    x_max_value = tf.reduce_max(x, reduction_indices=[0])
-
-    with tf.Session() as sess:
-        # print(sess.run(x_max_index))
-        # print(sess.run(x_max_value))
-        mean_index+=sess.run(x_max_index)
-        mean_value+=sess.run(x_max_value)
-
-print(mean_index/iteration)
-print(mean_value/iteration)
